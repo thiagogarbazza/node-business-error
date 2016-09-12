@@ -1,0 +1,36 @@
+{
+  "name": "validation-error",
+  "version": "0.0.1",
+  "description": "Create an instance representing an error for a  business validation.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagogarbazza/node-validation-error.git"
+  },
+  "keywords": [
+    "business",
+    "domain",
+    "ecmascript",
+    "error",
+    "es",
+    "javascript",
+    "js",
+    "message",
+    "validation"
+  ],
+  "author": "Thiago Garbazza <thiagogarbazza@gmail.com>",
+  "contributors":[
+    "Ramon Vicelli <ramonvicelli@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagogarbazza/node-validation-error/issues"
+  },
+  "homepage": "https://github.com/thiagogarbazza/node-validation-error#readme",
+  "devDependencies": {
+    "eslint-config-restrict": "0.0.3"
+  }
+}
