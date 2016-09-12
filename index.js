@@ -1,6 +1,6 @@
 'use strict';
-var error = require('./src/validation-error');
-var message = require('./src/validation-message');
+var error = require('./src/business-error');
+var message = require('./src/business-message');
 
 module.exports = {
   Error: error,
