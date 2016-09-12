@@ -1,5 +1,5 @@
 # node-validation-error
-[![Build Status](https://travis-ci.org/thiagogarbazza/node-validation-error.svg?branch=master)](https://travis-ci.org/thiagogarbazza/node-validation-error)
+[![Build Status](https://travis-ci.org/thiagogarbazza/node-validation-error.svg?branch=0.0.1)](https://travis-ci.org/thiagogarbazza/node-validation-error)
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/thiagogarbazza/node-validation-error/)
 
 ## Installation
