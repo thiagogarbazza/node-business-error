@@ -1,6 +1,6 @@
 {
   "name": "validation-error",
-  "version": "0.0.1",
+  "version": "0.0.2-SNAPSHOT",
   "description": "Create an instance representing an error for a  business validation.",
   "main": "index.js",
   "scripts": {
