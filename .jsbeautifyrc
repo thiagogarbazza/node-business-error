@@ -5,13 +5,6 @@
   "indent_size": 2,
   "indent_with_tabs": false,
   "eol": "\n",
-
-  "html": {
-
-  },
-  "css": {
-
-  },
   "js": {
     "end_with_newline": true
   }
