@@ -13,11 +13,11 @@ npm install --save business-error
 ## Usage
 
 ```js
-var BusinessMessage = require('business-error').Message;
+var BusinessCase = require('business-error').Case;
 var BusinessError = require('business-error').Error;
 
-var message = new BusinessMessage('code', 'Any business validation message');
-throw new BusinessError(message);
+var businessCase = new BusinessCase('code', 'Any business validation message');
+throw new BusinessError('a business error', businessCase);
 ```
 
 ## License

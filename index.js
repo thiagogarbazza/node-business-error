@@ -1,8 +1,8 @@
 'use strict';
-var error = require('./src/business-error');
-var message = require('./src/business-message');
+var businessError = require('./src/business-error');
+var businessCase = require('./src/business-case');
 
 module.exports = {
-  Error: error,
-  Message: message
+  Case: businessCase,
+  Error: businessError
 };
