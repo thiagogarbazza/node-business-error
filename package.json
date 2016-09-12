@@ -1,14 +1,14 @@
 {
-  "name": "validation-error",
+  "name": "business-error",
   "version": "0.0.2-SNAPSHOT",
-  "description": "Create an instance representing an error for a  business validation.",
+  "description": "Create an instance representing an error for a business business.",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagogarbazza/node-validation-error.git"
+    "url": "git+https://github.com/thiagogarbazza/node-business-error.git"
   },
   "keywords": [
     "business",
@@ -27,9 +27,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thiagogarbazza/node-validation-error/issues"
+    "url": "https://github.com/thiagogarbazza/node-business-error/issues"
   },
-  "homepage": "https://github.com/thiagogarbazza/node-validation-error#readme",
+  "homepage": "https://github.com/thiagogarbazza/node-business-error#readme",
   "devDependencies": {
     "eslint-config-restrict": "0.0.3"
   }
