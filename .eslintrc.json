@@ -2,14 +2,9 @@
   "env": {
     "node": true
   },
-  "extends": "restrict/es-5",
-  "globals": {
-
-  },
+  "extends": "restrict",
   "rules": {
     // Strict Mode
-    "strict": ["warn", "global"],
-
     "filenames/no-index": "off"
   }
 }
