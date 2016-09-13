@@ -1,10 +1,10 @@
 'use strict';
-const BusinessError = require('business-error').Error;
+const BusinessError = require('./business-error');
 const compact = require('lodash').compact;
 
 class AbstractValidate {
 
-  proccessValidate(promises) {
+  resolveValidationPromises(promises) {
     return new Promise((resolve, reject) => {
       Promise
         .all(promises)
