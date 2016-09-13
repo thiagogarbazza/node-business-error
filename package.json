@@ -22,7 +22,7 @@
     "validation"
   ],
   "author": "Thiago Garbazza <thiagogarbazza@gmail.com>",
-  "contributors":[
+  "contributors": [
     "Ramon Vicelli <ramonvicelli@gmail.com>"
   ],
   "license": "MIT",
@@ -31,6 +31,9 @@
   },
   "homepage": "https://github.com/thiagogarbazza/node-business-error#readme",
   "devDependencies": {
-    "eslint-config-restrict": "0.0.3"
+    "eslint-config-restrict": "0.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0"
   }
 }
