@@ -6,14 +6,15 @@ class AbstractValidate {
 
   resolveValidationPromises(promises) {
     return Promise.all(promises)
+      .catch(error => {
+        throw new Error('There was an unexpected error business', error);
+      })
       .then(cases => {
         const businessCases = compact(cases);
         if (businessCases.length > 0) {
-          return Promise.reject(new BusinessError('There was a business mistake.', businessCases));
+          throw new BusinessError('There was a business mistake.', businessCases);
         }
-        return Promise.resolve();
-      })
-      .catch(error => Promise.reject(new BusinessError('There was an unexpected error business', error)));
+      });
   }
 }
 
