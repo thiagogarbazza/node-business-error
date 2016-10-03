@@ -4,7 +4,7 @@ const compact = require('lodash').compact;
 
 class AbstractValidate {
 
-  resolveValidationPromises(promises) {
+  resolveValidationPromises(...promises) {
     return Promise.all(promises)
       .catch(error => {
         throw new Error('There was an unexpected error business', error);

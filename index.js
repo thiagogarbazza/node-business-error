@@ -5,6 +5,6 @@ const businessError = require('./src/business-error');
 
 module.exports = {
   AbstractValidate: abstractValidate,
-  Case: businessCase,
-  Error: businessError
+  BusinessCase: businessCase,
+  BusinessError: businessError
 };
