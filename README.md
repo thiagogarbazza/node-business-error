@@ -1,5 +1,5 @@
 # node-business-error
-[![Build Status](https://travis-ci.org/thiagogarbazza/node-business-error.svg?branch=0.0.7)](https://travis-ci.org/thiagogarbazza/node-business-error)
+[![Build Status](https://travis-ci.org/thiagogarbazza/node-business-error.svg?branch=master)](https://travis-ci.org/thiagogarbazza/node-business-error)
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/thiagogarbazza/node-business-error/)
 
 ## Installation
