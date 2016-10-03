@@ -1,6 +1,6 @@
 {
   "name": "business-error",
-  "version": "0.0.7-SNAPSHOT",
+  "version": "0.0.7",
   "description": "Create an instance representing an error for a business business.",
   "main": "index.js",
   "scripts": {
