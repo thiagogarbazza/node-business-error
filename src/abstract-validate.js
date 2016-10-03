@@ -1,6 +1,6 @@
 'use strict';
 const BusinessError = require('./business-error');
-const compact = require('lodash').compact;
+const {compact} = require('lodash');
 
 class AbstractValidate {
 
